@@ -40,7 +40,7 @@ public class login extends javax.swing.JFrame {
         jButton3 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setLocation(new java.awt.Point(200, 100));
+        setLocation(new java.awt.Point(0, 0));
         setUndecorated(true);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
@@ -143,6 +143,7 @@ public class login extends javax.swing.JFrame {
         if(jTextField1.getText().equals("gym") && jPasswordField1.getText().equals("admin")){
             setVisible(false);
             new home().setVisible(true);
+            
         }
         else{
             jLabel2.setVisible(true);

@@ -39,7 +39,7 @@ public class home extends javax.swing.JFrame {
         jMenu13 = new javax.swing.JMenu();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-        setLocation(new java.awt.Point(200, 100));
+        setLocation(new java.awt.Point(0, 0));
         setUndecorated(true);
 
         jPanel1.setBackground(new java.awt.Color(0, 118, 221));
